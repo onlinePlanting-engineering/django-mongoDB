@@ -28,6 +28,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+BIND_ADDR = '0.0.0.0:8090'
 
 # Application definition
 

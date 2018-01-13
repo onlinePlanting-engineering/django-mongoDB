@@ -59,7 +59,7 @@ mongoengine.connect(
     db="data_analysis",
     username='admin',
     password='123456',
-    host='localhost'
+    host='9.111.121.48'
 )
 
 ROOT_URLCONF = 'dataAnalysis.urls'
@@ -99,7 +99,7 @@ MONGODB_DATABASES = {
         'NAME': 'data_analysis',
         'USER': 'admin',
         'PASSWORD': '123456',
-        'HOST': 'localhost',
+        'HOST': '9.111.121.48',
         'PORT': '27017',
         'SUPPORTS_TRANSACTIONS': False,
     },
